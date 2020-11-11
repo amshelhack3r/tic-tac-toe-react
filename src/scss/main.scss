@@ -1,0 +1,32 @@
+body {
+    width: 80%;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.App {
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.board {
+    padding: 20px;
+    width: 600px;
+    border: 1px solid #333333;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    .cell {
+        width: 190px;
+        border: 1px solid #333333;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
